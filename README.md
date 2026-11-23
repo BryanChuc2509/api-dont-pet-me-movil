@@ -19,6 +19,10 @@ API REST de solo lectura para la app móvil de Don't Pet Me.
 
 ## Puesta en marcha
 
+### Requisitos previos
+
+Usa **Node.js 22 o superior** (Node.js 20 ya no está soportado por las versiones actuales de `@supabase/supabase-js`).
+
 ### 1. Crear el proyecto en Supabase
 1. Entra en <https://supabase.com>, crea una cuenta y un **New project** (elige región cercana y guarda la contraseña de la base de datos).
 2. En **SQL Editor → New query**, pega el contenido de [`supabase/schema.sql`](supabase/schema.sql) y ejecútalo (**Run**). Crea las tablas, índices y la seguridad (RLS).
